@@ -1,0 +1,14 @@
+@import "../../styles/styleconfig";
+
+.wrap {
+  position: fixed;
+  width: 600px;
+  height: calc(100% - 140px);
+  top: 100px;
+  box-shadow: 5px 8px 20px #30303026;
+  background-color: #f5f5f5;
+  color: $semiBlack;
+  border-radius: 20px;
+  overflow: hidden;
+  z-index: 9999;
+}

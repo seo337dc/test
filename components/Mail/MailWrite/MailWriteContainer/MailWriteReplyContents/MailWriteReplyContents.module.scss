@@ -1,0 +1,21 @@
+@import "../../../../../styles/styleconfig";
+
+.wrap {
+  margin-top: 20px;
+}
+
+.container {
+  //   margin: 10px 0 0 10px;
+  //   padding-left: 10px;
+  //   border-left: 2px solid $gray;
+  margin-top: 20px;
+
+  & > div {
+    display: flex;
+    margin-bottom: 5px;
+  }
+  .no_flex {
+    margin-top: 20px;
+    display: block;
+  }
+}

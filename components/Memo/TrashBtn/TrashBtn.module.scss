@@ -1,0 +1,20 @@
+.wrap {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  width: 55px;
+  height: 55px;
+  background-color: #da291c;
+  border-radius: 99px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.1s ease-in-out;
+  z-index: 99;
+  cursor: pointer;
+
+  &:hover {
+    border: 1px solid #da291c;
+    background-color: #ffffff;
+  }
+}

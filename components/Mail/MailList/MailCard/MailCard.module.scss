@@ -1,0 +1,95 @@
+@import "../../../../styles/styleconfig";
+
+.wrap {
+  width: 100%;
+  height: $mailListCardHeight;
+  border-bottom: 1px solid $lightGray;
+  padding: 15px 20px 15px 25px;
+  user-select: none;
+  cursor: pointer;
+  position: relative;
+  transition: background-color 0.2s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &:hover {
+    background-color: $whiteGray;
+  }
+}
+
+.name {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: $medium;
+  font-size: $s;
+
+  .date {
+    color: $gray;
+    font-weight: $regular;
+  }
+}
+
+.title,
+.title_all {
+  max-width: $mailListTitleWidth;
+  margin: 10px 0 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  position: relative;
+
+  & > i {
+    transform: rotate(30deg);
+    color: #acacac;
+    margin-right: 5px;
+  }
+}
+
+.title_all {
+  margin: 0px;
+  max-width: 100%;
+}
+
+.contents,
+.contents_all {
+  max-width: 190px;
+  font-size: $s;
+  color: $gray;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.contents_all {
+  max-width: 100%;
+}
+
+.selected_name {
+  font-weight: $medium;
+}
+
+.selected_title {
+  font-weight: $medium;
+}
+
+.unread_title {
+  font-weight: $bold;
+}
+
+.unread_name {
+  font-weight: $medium;
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  background: #e60012;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 66px;
+  left: 13px;
+  border-radius: 99px;
+}

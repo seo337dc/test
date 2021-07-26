@@ -1,0 +1,17 @@
+@import "../../../styles/styleconfig.scss";
+
+.wrap {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  margin-left: 10px;
+}
+
+.none_if_small_screen {
+  @include smallScreen {
+    display: none;
+  }
+}

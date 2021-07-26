@@ -1,0 +1,58 @@
+@import "../../../styles/styleconfig";
+
+.wrap,
+.all_down_off,
+.file_off,
+.file_on {
+  padding: 5px;
+  border: 1px solid $black;
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-size: $s;
+  margin: 4px 8px 4px 0;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  > i {
+    font-size: $base;
+    margin-right: 7px;
+  }
+
+  // 파일 kind
+  :nth-child(2) {
+    color: #877669;
+    margin-right: 3px;
+  }
+
+  :last-child {
+    margin-right: 15px;
+  }
+
+  :nth-child(2) {
+    margin-right: 5px;
+    color: #877669;
+  }
+
+  // :hover {
+  //   border-color: $lotteRed;
+  //   color: $lotteRed;
+  // }
+}
+
+.all_down_off {
+  background-color: #2222;
+  cursor: default;
+}
+
+.file_off {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.file_on {
+  cursor: default;
+}

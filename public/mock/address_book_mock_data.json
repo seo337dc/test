@@ -1,0 +1,80 @@
+{
+  "result": "OK",
+  "teamListData": [
+    {
+      "team_no": "1",
+      "team_type": "IN",
+      "team_name": "경영기획",
+      "addrListData": [
+        { "addr_no": "1", "u_name": "박재원 부장" },
+        { "addr_no": "2", "u_name": "김봉석 과장" },
+        { "addr_no": "3", "u_name": "이서현 과장" }
+      ]
+    },
+    {
+      "team_no": "2",
+      "team_type": "IN",
+      "team_name": "재경",
+      "addrListData": [
+        { "addr_no": "4", "u_name": "이민희 차장" },
+        { "addr_no": "5", "u_name": "박민규 사원" },
+        { "addr_no": "6", "u_name": "이혁 선임연구원" }
+      ]
+    },
+    {
+      "team_no": "3",
+      "team_type": "IN",
+      "team_name": "CR/PR",
+      "addrListData": [
+        { "addr_no": "7", "u_name": "홍길동 팀장" },
+        { "addr_no": "8", "u_name": "박재원 과장" },
+        { "addr_no": "9", "u_name": "이혁 대리" }
+      ]
+    },
+    {
+      "team_no": "4",
+      "team_type": "IN",
+      "team_name": "HR",
+      "addrListData": [
+        { "addr_no": "10", "u_name": "김길동 위원" },
+        { "addr_no": "11", "u_name": "김현해 대리" }
+      ]
+    },
+    {
+      "team_no": "5",
+      "team_type": "OUT",
+      "team_name": "고객사 A",
+      "addrListData": [
+        { "addr_no": "12", "u_name": "김민지 차장" },
+        { "addr_no": "13", "u_name": "문명국 이사" }
+      ]
+    },
+    {
+      "team_no": "6",
+      "team_type": "OUT",
+      "team_name": "고객사 B",
+      "addrListData": [
+        { "addr_no": "14", "u_name": "박찬호 과장" },
+        { "addr_no": "15", "u_name": "김기명 부장" }
+      ]
+    },
+    {
+      "team_no": "7",
+      "team_type": "OUT",
+      "team_name": "고객사 C",
+      "addrListData": [
+        { "addr_no": "16", "u_name": "고길동 과장" },
+        { "addr_no": "17", "u_name": "김둘리 차장" }
+      ]
+    },
+    {
+      "team_no": "8",
+      "team_type": "OUT",
+      "team_name": "고객사 D",
+      "addrListData": [
+        { "addr_no": "18", "u_name": "홍길순 부장" },
+        { "addr_no": "19", "u_name": "이연희 대리" }
+      ]
+    }
+  ]
+}

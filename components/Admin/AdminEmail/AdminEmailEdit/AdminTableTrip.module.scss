@@ -1,0 +1,279 @@
+.wrap {
+  width: 100%;
+  padding: 5px 10px;
+
+  .title {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 5px;
+
+    .title_text {
+      width: 90%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      font-size: 20px;
+
+      span {
+        margin-left: 10%;
+      }
+    }
+
+    .trip_btn {
+      width: 70px;
+      height: 35px;
+      margin-left: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      border: 1px solid black;
+    }
+  }
+
+  .doc {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 5px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border-top: 3px solid darkgray;
+    border-bottom: 3px solid darkgray;
+
+    .info_odd {
+      width: calc(100% / 6);
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      border-right: 3px solid gray;
+      background-color: lightgray;
+    }
+
+    .info_even {
+      width: calc(100% / 6);
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-right: 3px solid gray;
+
+      input {
+        width: 100%;
+      }
+    }
+
+    .info_last {
+      width: calc(100% / 6);
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      input {
+        width: 100%;
+      }
+    }
+  }
+
+  .index_title {
+    width: 100%;
+    margin: 5px 0 5px 5px;
+
+    span {
+      font-size: 17px;
+      font-weight: bold;
+    }
+  }
+
+  .schedule {
+    width: 100%;
+    border-top: 3px solid darkgray;
+    border-bottom: 3px solid darkgray;
+
+    .schedule_container {
+      width: 100%;
+      height: 40px;
+      display: flex;
+      border-bottom: 1px solid darkgray;
+
+      .schedule_odd {
+        width: calc(100% / 6);
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        border-right: 3px solid gray;
+        border-bottom: 1px solid gray;
+        background-color: lightgray;
+      }
+
+      .schedule_even {
+        width: calc(100% / 3);
+        height: 40px;
+        display: flex;
+        align-items: center;
+        border-right: 3px solid gray;
+        border-bottom: 1px solid gray;
+
+        .answer_container {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          align-items: center;
+
+          .answer_input {
+            width: 40%;
+            height: 35px;
+          }
+
+          .answer_code {
+            width: 60%;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            border-left: 1px solid black;
+
+            span {
+              font-size: 12px;
+            }
+
+            input {
+              width: 150px;
+              margin-left: 3px;
+              border: 1px solid black;
+            }
+          }
+        }
+        input {
+          width: 100%;
+        }
+      }
+
+      .schedule_last {
+        height: 40px;
+        display: flex;
+        align-items: center;
+
+        input {
+          width: 100%;
+        }
+
+        .location_list {
+          width: 90%;
+          height: 80%;
+          margin-left: 5px;
+          border: 1px solid black;
+        }
+      }
+    }
+
+    .schedule_containerlast {
+      width: 100%;
+      height: 40px;
+
+      display: flex;
+
+      .schedule_odd {
+        width: calc(100% / 6);
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        border-right: 3px solid gray;
+        background-color: lightgray;
+      }
+
+      .schedule_even {
+        width: calc(100% - (100% / 6));
+        height: 40px;
+        display: flex;
+        align-items: center;
+
+        input {
+          width: 95%;
+        }
+      }
+    }
+  }
+
+  .cost {
+    width: 100%;
+    border-top: 3px solid darkgray;
+    border-bottom: 3px solid darkgray;
+
+    .cost_container {
+      width: 100%;
+      height: 40px;
+      display: flex;
+      border-bottom: 1px solid gray;
+
+      .cost_type {
+        width: calc(100% / 6);
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        border-right: 3px solid gray;
+        border-bottom: 1px solid gray;
+        background-color: lightgray;
+
+        input {
+          width: 100%;
+          height: 90%;
+          text-align: center;
+          background-color: lightgray;
+        }
+      }
+
+      .cost_content {
+        width: calc(100% - (100% / 6));
+        height: 100%;
+        display: flex;
+        align-items: center;
+
+        input {
+          height: 35px;
+          width: 65%;
+        }
+
+        .answer_container {
+          width: 35%;
+          height: 40px;
+          display: flex;
+          align-items: center;
+          border-left: 1px solid black;
+
+          span {
+            margin-left: 5px;
+          }
+
+          input {
+            height: 35px;
+            width: 250px;
+            margin-left: 10px;
+            border: 1px solid black;
+          }
+        }
+      }
+
+      .remark {
+        width: calc(100% - (100% / 6));
+        height: 100%;
+        display: flex;
+        align-items: center;
+
+        input {
+          height: 35px;
+          width: 100%;
+        }
+      }
+    }
+  }
+}

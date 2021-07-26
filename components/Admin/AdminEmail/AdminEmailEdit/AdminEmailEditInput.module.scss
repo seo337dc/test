@@ -1,0 +1,94 @@
+.wrap {
+  width: 100%;
+  margin: 1px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+
+  .main {
+    width: 80%;
+    margin: 5px 5px;
+    display: flex;
+    align-items: center;
+
+    span {
+      width: 40px;
+    }
+
+    .content {
+      height: 25px;
+      width: 50%;
+      border: 1px solid black;
+    }
+
+    .number_on {
+      margin: 0 5px;
+      color: white;
+      text-align: center;
+      background-color: black;
+      cursor: pointer;
+    }
+
+    .number_off {
+      margin: 0 5px;
+      color: black;
+      text-align: center;
+      background-color: white;
+      border: 1px solid black;
+      cursor: pointer;
+    }
+
+    .width {
+      height: 25px;
+      width: 10%;
+      border: 1px solid black;
+    }
+
+    i {
+      font-size: 14px;
+    }
+  }
+
+  .code {
+    width: 40%;
+
+    span {
+      margin-left: 5px;
+      font-size: 15px;
+    }
+
+    .content {
+      height: 25px;
+      width: 10%;
+      margin-left: 5px;
+      border: 1px solid black;
+    }
+
+    input {
+      height: 25px;
+      width: 70%;
+      margin-left: 5px;
+      border: 1px solid black;
+    }
+
+    i {
+      margin-left: 5px;
+      font-size: 15 px;
+    }
+  }
+
+  .button_container {
+    width: auto;
+    display: flex;
+  }
+
+  .btn {
+    width: 50px;
+    height: 25px;
+    margin: 0px 5px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid black;
+  }
+}

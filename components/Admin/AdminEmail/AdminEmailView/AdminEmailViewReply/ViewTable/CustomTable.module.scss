@@ -1,0 +1,128 @@
+.wrap {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+
+  .title {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+
+    .text {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+
+      span {
+        font-weight: bold;
+      }
+    }
+  }
+
+  .doc {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 5px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border-top: 3px solid darkgray;
+    border-bottom: 3px solid darkgray;
+
+    .odd {
+      width: calc(100% / 6);
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      border-right: 3px solid gray;
+      background-color: lightgray;
+    }
+
+    .even {
+      width: calc(100% / 6);
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-right: 3px solid gray;
+    }
+
+    .last {
+      width: calc(100% / 6);
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .subtitle {
+    width: 100%;
+    margin: 10px 0 10px 0px;
+
+    span {
+      font-weight: bold;
+    }
+  }
+
+  .table {
+    width: 100%;
+
+    .main {
+      height: 50px;
+      width: auto;
+      margin: 0 auto;
+      padding: 0;
+      display: flex;
+
+      &:first-child {
+        li {
+          border-top: 2px solid darkgray;
+        }
+      }
+
+      &:last-child {
+        li {
+          border-bottom: 2px solid darkgray;
+        }
+      }
+
+      .head,
+      .input,
+      li {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+        border-right: 1px solid darkgray;
+        border-bottom: 1px solid darkgray;
+
+        &:last-child {
+          border-right: 0px;
+        }
+      }
+
+      .head {
+        font-weight: bold;
+        background-color: lightgray;
+      }
+
+      .input {
+        color: black;
+
+        input {
+          width: 100%;
+          height: 100%;
+          border: 0px;
+          margin: 0px;
+          text-align: center;
+          background-color: rgba(218, 41, 28, 0.1);
+        }
+      }
+    }
+  }
+}

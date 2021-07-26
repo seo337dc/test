@@ -1,0 +1,62 @@
+.wrap {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+  .input {
+    width: 100%;
+    padding: 0 10px;
+    display: flex;
+
+    p {
+      width: 50px;
+    }
+
+    textarea {
+      height: 70px;
+      width: 100%;
+      margin-left: 10px;
+      font-size: 14px;
+      border: 1px solid black;
+    }
+  }
+
+  .template {
+    height: 100%;
+    border-right: 1px solid black;
+
+    .button_on {
+      width: 50px;
+      height: 25px;
+      margin: 10px 5px;
+      text-align: center;
+      cursor: pointer;
+      color: #ffffff;
+      background-color: black;
+      border: 1px solid black;
+    }
+
+    .button_off {
+      width: 50px;
+      height: 25px;
+      margin: 10px 5px;
+      text-align: center;
+      cursor: pointer;
+      border: 1px solid black;
+    }
+  }
+
+  .btn {
+    display: flex;
+
+    .submit {
+      width: 50px;
+      height: 25px;
+      margin: auto 5px;
+      text-align: center;
+      cursor: pointer;
+      border: 1px solid black;
+    }
+  }
+}

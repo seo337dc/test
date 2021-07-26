@@ -1,0 +1,51 @@
+@import "../../styles/styleconfig";
+
+$menuColor: #303030;
+$modalMaxheight: 676px;
+$modalMaxheightSmall: 450px;
+
+.wrap {
+  padding: 30px 70px 0;
+}
+
+.menu_wrap {
+  display: flex;
+  justify-content: center;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+.menu {
+  padding: 15px 20px;
+  font-size: 16px;
+  color: $menuColor;
+  margin-right: 20px;
+  cursor: pointer;
+  user-select: none;
+
+  &:last-child {
+    margin: 0;
+  }
+}
+
+.picked {
+  border-bottom: 3px solid #da291c;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-height: $modalMaxheight;
+  overflow-y: auto;
+
+  @include midScreen {
+    max-height: $modalMaxheightSmall;
+  }
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 30px 0 10px;
+  color: #da291c;
+}

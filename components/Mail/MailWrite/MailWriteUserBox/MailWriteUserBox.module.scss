@@ -1,0 +1,45 @@
+@import "../../../../styles/styleconfig";
+
+.wrap {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.title {
+  width: $mailWriteTitleIndexWidth;
+  margin-right: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: $medium;
+}
+
+.sender {
+  color: $gray;
+  font-weight: $medium;
+  padding: 0 0 0 9px;
+}
+
+.to,
+.cc {
+  width: calc(100% - #{$mailWriteTitleIndexWidth + 25});
+  font-weight: $medium;
+  border-bottom: 1px solid $black;
+  padding: 0 0 6px 9px;
+}
+
+.cc {
+  span {
+    padding-right: 5px;
+  }
+
+  span:first-child {
+    padding-left: 0px;
+    padding-right: 5px;
+  }
+}

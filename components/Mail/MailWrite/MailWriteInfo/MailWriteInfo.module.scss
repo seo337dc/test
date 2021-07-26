@@ -1,0 +1,55 @@
+@import "../../../../styles/styleconfig";
+
+.wrap {
+  padding-bottom: 35px;
+  border-bottom: 2px solid #acacac;
+}
+
+.container {
+  display: flex;
+  margin-bottom: 25px;
+  font-size: $l;
+
+  &:nth-child(2) {
+    margin-bottom: 5px; //0px
+    align-items: flex-start;
+
+    .title {
+      width: calc(#{$mailWriteTitleIndexWidth - 25});
+      margin-right: 5px;
+    }
+
+    .btn {
+      margin-top: 5px;
+      margin-right: 20px;
+    }
+  }
+
+  &:last-child {
+    margin-bottom: 0px; //0px
+    align-items: flex-start;
+
+    .title {
+      width: calc(#{$mailWriteTitleIndexWidth - 5});
+    }
+  }
+}
+
+.title {
+  width: $mailWriteTitleIndexWidth;
+  margin-right: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ctx {
+  font-weight: $bold;
+}
+
+.files {
+  width: calc(100% - #{$mailWriteTitleIndexWidth + 25});
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}

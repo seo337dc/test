@@ -1,0 +1,21 @@
+@import "../../../styles/styleconfig";
+
+.wrap {
+  display: flex;
+  align-items: center;
+  font-size: $s;
+  padding: 3px 5px;
+  margin-right: 15px;
+  transition: border-color 0.2s ease-in-out;
+  border: 1px solid transparent;
+  user-select: none;
+  cursor: pointer;
+
+  &:hover {
+    border-color: $black;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+}

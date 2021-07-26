@@ -1,0 +1,25 @@
+@import "../../styles/styleconfig.scss";
+
+.wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.container {
+  height: 100%;
+  &:nth-child(2) {
+    border-left: 1px dashed $lightGray;
+  }
+}
+
+.empty {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: $l;
+  color: $gray;
+  text-align: center;
+}

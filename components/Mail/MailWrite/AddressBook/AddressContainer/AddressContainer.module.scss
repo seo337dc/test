@@ -1,0 +1,11 @@
+@import "../../../../../styles/styleconfig";
+
+.wrap {
+  width: 450px;
+  height: 505px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid $semiBlack;
+  padding: 25px 35px;
+}

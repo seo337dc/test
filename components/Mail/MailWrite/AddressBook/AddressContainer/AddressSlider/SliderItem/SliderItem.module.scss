@@ -1,0 +1,40 @@
+@import "../../../../../../../styles/styleconfig";
+
+.wrap {
+  margin: 10px 0 15px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.item_selected {
+  color: $gold;
+  border-bottom: 2px solid $gold;
+}
+
+.check {
+  width: 20px;
+  height: 20px;
+  color: $white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  border: 1px solid $semiBlack;
+  font-size: $xs;
+  font-weight: $medium;
+}
+
+.checked {
+  background-color: $semiBlack;
+}
+
+.team_name {
+  font-size: $s;
+  color: $scrollBarHover;
+  margin-left: 10px;
+}

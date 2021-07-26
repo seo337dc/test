@@ -1,0 +1,68 @@
+.wrap {
+  width: 40%;
+  height: 800px;
+  position: fixed;
+  top: 10%;
+  left: 20%;
+  z-index: 999;
+  background-color: white;
+  border: 1px solid black;
+
+  .top {
+    height: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 0 5px;
+    color: white;
+    background-color: black;
+
+    i {
+      cursor: pointer;
+    }
+  }
+
+  .body {
+    width: 100%;
+    height: 700px;
+    padding: 10px 5px;
+    display: flex;
+    border: 1px solid black;
+
+    .address,
+    .send {
+      width: 50%;
+      height: auto;
+      overflow-y: auto;
+      margin: 0 5px;
+      border: 1px solid black;
+
+      .list {
+        height: 40px;
+        width: 100%;
+        padding: 0 5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid black;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .foot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .btn {
+      width: 50px;
+      height: 30px;
+      margin-top: 10px;
+      text-align: center;
+      cursor: pointer;
+      border: 1px solid black;
+    }
+  }
+}

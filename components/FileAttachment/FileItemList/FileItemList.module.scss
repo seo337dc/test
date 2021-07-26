@@ -1,0 +1,53 @@
+@import "../../../styles/styleconfig";
+
+.outer {
+  width: calc(100% - 160px);
+  padding-right: 5px;
+}
+
+.wrap {
+  width: 100%;
+  padding: 0 25px 0 20px;
+  font-size: $base;
+  user-select: none;
+}
+
+.item {
+  width: 100%;
+  border-bottom: 1px solid #dddddd;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  .type {
+    width: 80px;
+    font-size: $s;
+    color: $gold;
+    margin-right: 20px;
+  }
+
+  .title {
+    width: calc(100% - 140px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-right: 20px;
+  }
+
+  .check {
+    width: 20px;
+    height: 20px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #303030;
+    font-size: $xs;
+    font-weight: $medium;
+  }
+
+  .checked {
+    background-color: #303030;
+  }
+}

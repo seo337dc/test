@@ -1,0 +1,75 @@
+@import "../../styles/styleconfig";
+
+.wrap {
+  position: relative;
+  width: 100%;
+  height: $navHeight;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+  color: $black;
+  border-bottom: 1px solid #dddddd;
+  background-color: #ffffff;
+  user-select: none;
+}
+
+.left {
+  display: flex;
+}
+
+.right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  & > div:nth-child(2) {
+    margin: 0 20px;
+  }
+}
+
+.item_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  color: #bbb;
+
+  & > div {
+    width: 24px;
+    color: #acacac;
+    line-height: 22px;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #acacac;
+    border-radius: 3px;
+    margin-right: 0.5rem;
+  }
+
+  & > span {
+    line-height: 1;
+    padding-bottom: 2px;
+  }
+}
+
+.dot {
+  margin: 0 10px;
+  width: 20px;
+  border-top: 1px dashed #acacac;
+}
+
+.now {
+  color: #da291c;
+  font-weight: 500;
+
+  & > div {
+    background-color: #da291c;
+    color: #fff;
+    border: 1px solid #da291c;
+  }
+}

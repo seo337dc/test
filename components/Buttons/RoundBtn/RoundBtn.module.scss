@@ -1,0 +1,45 @@
+@import "../../../styles/styleconfig";
+
+.wrap {
+  padding: 4px 10px;
+  background-color: $lightBlack;
+  color: $white;
+  font-size: $xs;
+  border-radius: 9999px;
+  user-select: none;
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+}
+
+.gold {
+  border: 1px solid #da291c;
+  color: #da291c;
+  background-color: #f6cecb;
+  // border: 1px solid #877669;
+  // color: #877669;
+  // background-color: #e5d8ce;
+}
+
+.gold_reverse {
+  border: 0px;
+  color: #555555;
+  background-color: #dddddd;
+  // border: 1px solid #877669;
+  // color: #877669;
+  // background-color: #ffffff;
+}
+
+.gray {
+  border: 1px solid #222222;
+  color: #222222;
+  background-color: #ffffff;
+  // background-color: #c8c8c8;
+  // color: #54585a;
+}
+
+.silver {
+  background-color: transparent;
+  color: #da291c;
+  border: 1px solid #da291c;
+}

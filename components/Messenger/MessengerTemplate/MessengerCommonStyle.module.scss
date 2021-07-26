@@ -1,0 +1,62 @@
+@import "../../../styles/styleconfig";
+
+.wrap {
+  font-size: $base;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  user-select: none;
+  margin-bottom: 15px;
+
+  .who {
+    margin-bottom: 10px;
+  }
+
+  .text {
+    position: relative;
+    max-width: 390px;
+    min-height: 58px;
+    border-radius: 0 20px 20px 20px;
+    padding: 15px;
+    box-shadow: 2px 6px 11px #30303012;
+    line-height: 1.8;
+    background-color: #ffffff;
+    word-break: keep-all;
+
+    .date {
+      position: absolute;
+      bottom: 0;
+      right: -42px;
+      font-size: $s;
+      color: #616161;
+    }
+
+    & img {
+      max-width: 360px;
+      border-radius: 5px;
+    }
+  }
+}
+
+.reply {
+  position: absolute;
+  bottom: 25px;
+  right: -45px;
+  width: 40px;
+  height: 25px;
+  border-radius: 99px;
+  background-color: #da291c;
+  color: #fff;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  & > i {
+    font-size: 16px;
+    color: #222222;
+    transform: rotate(-180deg);
+    margin-top: 3px;
+  }
+}

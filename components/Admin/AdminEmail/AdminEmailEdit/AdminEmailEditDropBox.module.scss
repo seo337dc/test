@@ -1,0 +1,105 @@
+.wrap {
+  height: 115px;
+  display: flex;
+  font-size: 14px;
+
+  .left {
+    width: 60%;
+    height: 100%;
+    border-right: 1px solid black;
+
+    .code {
+      display: flex;
+      margin: 5px 0 0 10px;
+
+      input {
+        height: 25px;
+        width: 30%;
+        margin-left: 10px;
+        border: 1px solid black;
+      }
+
+      span {
+        margin-left: 1px;
+      }
+    }
+
+    .item {
+      height: 100px;
+      display: flex;
+      margin: 10px 0 0 10px;
+
+      textarea {
+        height: 70px;
+        width: 70%;
+        margin-left: 10px;
+        border: 1px solid black;
+      }
+
+      .add {
+        height: 25px;
+        width: 40px;
+        margin-left: 5px;
+        text-align: center;
+        cursor: pointer;
+        border: 1px solid black;
+      }
+    }
+  }
+
+  .right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .list_wrap {
+      height: 105px;
+      width: 80%;
+      margin-left: 10px;
+      overflow-y: auto;
+
+      border: 1px solid black;
+
+      .list_container {
+        width: 100%;
+
+        .dropbox {
+          height: auto;
+          margin: 2px 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          i {
+            cursor: pointer;
+          }
+
+          textarea {
+            width: 90%;
+            height: 25px;
+            border: 1px solid black;
+
+            &:focus {
+              height: 50px;
+              margin: 5px 0;
+            }
+          }
+        }
+      }
+    }
+
+    .button_container {
+      .submit {
+        height: 35px;
+        width: 50px;
+        margin: 5px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        border: 1px solid black;
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+@import "../../../styles/styleconfig";
+
+.wrap {
+  // width: 135px;
+  // height: 45px;
+  width: 90px;
+  height: 44px;
+  background-color: $white;
+  box-shadow: 1px 4px 6px #30303012;
+  border: 1px solid #dddddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  user-select: none;
+  border-radius: 2px;
+  cursor: pointer;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.red {
+  background-color: $lotteRed;
+  border: 1px solid $lotteRed;
+  color: $white;
+}
+
+.gold {
+  background-color: #222222;
+  border: 1px solid $gold;
+  color: $white;
+}
+
+.silver {
+  background-color: #555555;
+  color: #ffffff;
+  border: 1px solid #acacac;
+}
+
+.gray {
+  background-color: #555555;
+  color: $white;
+}

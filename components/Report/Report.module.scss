@@ -1,0 +1,334 @@
+@import "../../styles/styleconfig";
+
+.wrap {
+  position: relative;
+  width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  user-select: none;
+  overflow: hidden;
+
+  .print_btn {
+    position: fixed;
+    top: 125px;
+    left: 125px;
+    width: 80px;
+    height: 80px;
+    color: #222222;
+    border: 1px solid #222222;
+    font-size: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
+    border-radius: 50%;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+
+    @include midScreen {
+      position: absolute;
+      width: 60px;
+      height: 60px;
+      top: 85px;
+      left: 570px;
+    }
+  }
+
+  .header_wrap {
+    width: 100%;
+    border-bottom: 3px solid #546e7a;
+    display: flex;
+    align-items: center;
+
+    .report_header {
+      width: calc(100% - 400px);
+      height: 130px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      font-size: 48px;
+      font-weight: bold;
+      color: #333;
+
+      .logo {
+        width: 70px;
+        height: 70px;
+        margin-right: 20px;
+        border-radius: 100%;
+        background-color: #fa1e0e;
+      }
+    }
+
+    .report_profile {
+      padding: 5px 0 5px 10px;
+      font-size: 14px;
+      font-weight: 600;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      white-space: pre-wrap;
+
+      .report_info_wrap {
+        width: 400px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        .report_info > tbody > tr {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          padding: 5px 0;
+
+          td {
+            margin-right: 30px;
+            font-size: 14px;
+          }
+        }
+      }
+
+      .report_img {
+        width: 70px;
+        height: 70px;
+        margin-right: 40px;
+        border-radius: 100%;
+        background-color: #bd2000;
+      }
+    }
+  }
+
+  .section_avg_chart {
+    width: 1280px;
+    height: 400px;
+    display: flex;
+    overflow: hidden;
+
+    .avg_chart {
+      width: 100%;
+      height: 100%;
+      padding: 5px 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      .avg_title {
+        width: 100%;
+      }
+    }
+  }
+
+  .section_capability_chart {
+    width: 1280px;
+    height: 400px;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    .sw_chart,
+    .capability_chart {
+      width: 630px;
+      height: 380px;
+      padding: 5px 20px;
+      background-color: #ffe8e8;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+
+      .sw_result_wrap {
+        width: calc(100% - 40px);
+        display: flex;
+        justify-content: space-around;
+
+        .weakness,
+        .strong {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          .result_title {
+            width: 100px;
+            height: 35px;
+            margin-bottom: 16px;
+            background-color: white;
+            border: 2px solid #000;
+            border-radius: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 16px;
+            font-weight: bold;
+          }
+
+          .result_content {
+            width: 250px;
+            height: 38px;
+            margin-bottom: 10px;
+            background-color: #546e7a;
+            border-radius: 10px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: lighter;
+          }
+
+          .result_content:nth-child(6) {
+            margin-bottom: 0;
+          }
+        }
+
+        .strong {
+          .result_content {
+            background-color: #b68973;
+          }
+        }
+      }
+    }
+  }
+
+  .section_synthesis_chart {
+    width: 1280px;
+    height: 400px;
+    overflow: hidden;
+    background-color: #f3f4ed;
+    margin-bottom: 20px;
+
+    .synthesis_chart {
+      width: 100%;
+      height: 100%;
+      padding: 5px 20px;
+    }
+  }
+
+  .section_reference_chart {
+    width: 1280px;
+    height: 400px;
+    margin-bottom: 30px;
+    background-color: #ffe8e8;
+    overflow: hidden;
+
+    .reference_chart {
+      width: 100%;
+      height: 100%;
+      padding: 5px 20px;
+    }
+
+    .reference_content_wrap {
+      width: 1100px;
+      height: 290px;
+      padding: 20px 0;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: column;
+
+      .reference_content {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .reference_title {
+          width: 150px;
+          height: 46px;
+          margin-right: 10px;
+          background-color: white;
+          border: 2px solid #222222;
+          border-radius: 50px;
+          font-size: 18px;
+          text-align: center;
+          line-height: 38px;
+        }
+        .grade_wrap {
+          height: 46px;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+
+          div {
+            width: 170px;
+            height: 46px;
+            margin-left: 10px;
+            color: #eeeeee;
+            background-color: #bbbbbb;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: 600;
+          }
+
+          .very_low {
+            border-radius: 50px 0 0 50px;
+          }
+
+          .very_high {
+            border-radius: 0 50px 50px 0;
+          }
+        }
+      }
+    }
+
+    .reference_caption_wrap {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      p {
+        margin: 0 10px;
+
+        span {
+          font-size: 14px;
+          color: #fa1e0e;
+        }
+      }
+    }
+  }
+}
+
+.section_font_wrap {
+  width: 100%;
+  margin: 16px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.section_font {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.section_caption {
+  font-size: 18px;
+  color: #777;
+  font-weight: 500;
+}
+
+.section_icon {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+
+  div {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    background-color: #fa1e0e;
+  }
+
+  .elite {
+    background-color: #546e7a;
+  }
+  .applicant {
+    background-color: #fa1e0e;
+  }
+}

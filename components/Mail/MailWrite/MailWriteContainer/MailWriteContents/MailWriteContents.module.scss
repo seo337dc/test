@@ -1,0 +1,123 @@
+.wrap {
+  word-break: keep-all;
+
+  input {
+    width: 100px;
+    margin: 5px;
+    border: 1px solid black;
+  }
+
+  select {
+    margin: 2px 0 2px 5px;
+    border: 1px solid black;
+  }
+
+  .question {
+    .flex {
+      display: flex;
+
+      .qheader {
+        font-weight: bold;
+        margin: 0 5px 0 20px;
+      }
+    }
+
+    .qtext {
+      font-weight: bold;
+      word-break: keep-all;
+    }
+  }
+
+  .radio {
+    p {
+      margin: 5px 0;
+      font-weight: bold;
+    }
+
+    .radio_li,
+    .checkbox_li {
+      width: 100%;
+      margin-left: 35px;
+      display: flex;
+
+      input[type="radio"] {
+        appearance: none;
+        min-width: 14px;
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        outline: none;
+        cursor: pointer;
+        border: 1px solid gray;
+      }
+
+      input[type="radio"]:before {
+        content: "";
+        display: block;
+        width: 60%;
+        height: 60%;
+        margin: 20% auto;
+        border-radius: 50%;
+      }
+
+      input[type="radio"]:checked:before {
+        background: red;
+      }
+
+      input[type="radio"]:checked {
+        border-color: red;
+      }
+
+      input[type="checkbox"] {
+        appearance: none;
+        min-width: 14px;
+        width: 14px;
+        height: 14px;
+        border-radius: 3px;
+        outline: none;
+        cursor: pointer;
+        border: 1px solid gray;
+      }
+
+      input[type="checkbox"]:before {
+        content: "";
+        display: block;
+        width: 60%;
+        height: 60%;
+        margin: 20% auto;
+        border-radius: 2px;
+      }
+
+      input[type="checkbox"]:checked:before {
+        background: red;
+      }
+
+      input[type="checkbox"]:checked {
+        border-color: red;
+      }
+
+      label {
+        word-break: keep-all;
+      }
+    }
+  }
+
+  // img {
+  //   width: 100%;
+  //   height: 100%;
+  // }
+
+  .table {
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  .checkBtn {
+    margin-top: 5px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+  }
+}

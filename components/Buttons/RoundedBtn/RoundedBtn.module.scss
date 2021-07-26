@@ -1,0 +1,47 @@
+@import "../../../styles/styleconfig";
+
+.wrap {
+  min-width: 60px;
+  min-height: 40px;
+  padding: 7px;
+  border: 1px solid #555555;
+  border-radius: 5px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  font-weight: $medium;
+  transition: all 0.1s ease-in-out;
+  position: relative;
+  cursor: pointer;
+
+  &:hover {
+    color: #ffffff;
+    background-color: #555555;
+  }
+}
+
+.default {
+  color: #555555;
+}
+
+.reverse {
+  color: #ffffff;
+  background-color: #555555;
+}
+
+.unRead {
+  width: 19px;
+  height: 19px;
+  background: #da291c;
+  color: #ffffff;
+  position: absolute;
+  right: 3px;
+  top: -10px;
+  border-radius: 99px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}

@@ -1,0 +1,48 @@
+@import "../../../styles/styleconfig";
+
+.wrap {
+  height: $mailNavHeight;
+  padding: 0 30px 0 20px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  user-select: none;
+  // background-color: #eeeeee;
+  background-color: #fff;
+
+  & > i {
+    font-size: 24px;
+    cursor: pointer;
+    line-height: $mailNavHeight;
+  }
+}
+.container {
+  display: flex;
+  color: #222222;
+
+  .item {
+    width: 95px;
+    height: 40px;
+    background-color: #acacac;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+
+  .selected {
+    background-color: #ffffff;
+  }
+}
+
+.btn_wrap {
+  font-size: 18px;
+  position: relative;
+  cursor: pointer;
+
+  & > i {
+    margin-right: 12px;
+  }
+}

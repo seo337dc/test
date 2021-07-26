@@ -1,0 +1,47 @@
+@import "../../../../styles/styleconfig";
+
+.wrap {
+  padding: 0 30px;
+  margin: 30px 0;
+  color: #303030;
+  user-select: none;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.title_wrap {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  padding-left: 8px;
+  font-size: 20px;
+  font-weight: $medium;
+}
+
+.list {
+  width: 100%;
+  overflow: hidden;
+
+  .item {
+    display: flex;
+    align-items: center;
+    padding-left: 28px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+}
+
+.sub_title {
+  padding-left: 8px;
+  font-size: 16px;
+  font-weight: $medium;
+}

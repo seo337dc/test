@@ -1,0 +1,27 @@
+@import "../../styles/styleconfig.scss";
+
+.wrap {
+  position: relative;
+  width: 100%;
+  height: $navHeight;
+  display: flex;
+  align-items: center;
+  padding: 0 25px;
+  color: $black;
+  border-bottom: 1px solid #dddddd;
+  background-color: #ffffff;
+  user-select: none;
+}
+
+.container {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo_user_wrap {
+  display: flex;
+  align-items: center;
+}

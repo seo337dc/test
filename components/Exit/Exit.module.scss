@@ -1,0 +1,15 @@
+@import "../../styles/styleconfig";
+
+.wrap {
+  font-size: 36px;
+  color: #ffffff;
+  cursor: pointer;
+  user-select: none;
+}
+
+.modalText {
+  font-size: 18px;
+  font-weight: $medium;
+  padding: 10px 40px 30px;
+  color: #222222;
+}

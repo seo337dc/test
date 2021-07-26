@@ -1,0 +1,94 @@
+@import "../../styles/styleconfig";
+
+.wrap {
+  width: 175px;
+  height: 45px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  transition: 0.2s all ease-in-out;
+  cursor: pointer;
+  user-select: none;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+  }
+}
+
+.reverse {
+  border: 1px solid #222;
+
+  &:hover {
+    border: 1px solid #222;
+  }
+}
+
+.ctx {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .text {
+    font-size: 18px;
+    line-height: 1;
+    color: #222222;
+    font-weight: $medium;
+    padding-bottom: 4px;
+  }
+
+  & > img {
+    margin-right: 8px;
+  }
+}
+
+.container {
+  position: absolute;
+  width: 100%;
+  padding-top: 10px;
+  font-size: 18px;
+  color: #222;
+  left: 50%;
+  bottom: 0px;
+  transform: translate(-50%, 100%);
+}
+
+.inner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  padding: 10px 0;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.i_re {
+  border: 1px solid #222;
+  background-color: #ffffff;
+}
+
+.con_re {
+  color: #222;
+}
+
+.menu {
+  &:hover {
+    color: #da291c;
+  }
+}
+
+.hr {
+  width: 100%;
+  height: 1px;
+  margin: 15px 0;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.hr_re {
+  background-color: #222;
+}

@@ -1,0 +1,214 @@
+.wrap {
+  // max-width: 830px;
+  // width: 100%;
+  width: 830px;
+  height: 100%;
+  padding: 0 10px;
+
+  .title {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+
+  .meta {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    border-top: 3px solid darkgray;
+    border-bottom: 3px solid darkgray;
+
+    .info_odd {
+      width: calc(100% / 6);
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      border-right: 3px solid gray;
+      background-color: lightgray;
+    }
+
+    .info_even {
+      width: calc(100% / 6);
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-right: 3px solid gray;
+    }
+
+    .info_last {
+      width: calc(100% / 6);
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .index_title {
+    width: 100%;
+    margin: 5px 0 5px 5px;
+
+    span {
+      font-size: 17px;
+      font-weight: bold;
+    }
+  }
+
+  .schedule {
+    width: 100%;
+    border-top: 3px solid darkgray;
+    border-bottom: 3px solid darkgray;
+
+    .schedule_container {
+      width: 100%;
+      height: 40px;
+      display: flex;
+      border-bottom: 1px solid darkgray;
+
+      .schedule_odd {
+        width: calc(100% / 6);
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        border-right: 3px solid gray;
+        border-bottom: 1px solid gray;
+        background-color: lightgray;
+      }
+
+      .schedule_even {
+        width: calc(100% / 6);
+        height: 40px;
+        // padding: 0 5px;
+        display: flex;
+        align-items: center;
+        border-right: 3px solid gray;
+        border-bottom: 1px solid gray;
+
+        input {
+          height: 100%;
+          width: 100%;
+          border: 0px;
+          margin: 0px;
+          background-color: rgba(218, 41, 28, 0.1);
+          color: black;
+        }
+      }
+
+      .schedule_last {
+        width: calc(100% - ((100% / 6) * 3));
+        height: 40px;
+        padding: 0 5px;
+        display: flex;
+        align-items: center;
+
+        .location_list {
+          width: 90%;
+          height: 80%;
+          margin-left: 5px;
+          border: 1px solid black;
+        }
+      }
+    }
+
+    .schedule_containerlast {
+      width: 100%;
+      height: 40px;
+
+      display: flex;
+
+      .schedule_odd {
+        width: calc(100% / 6);
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        border-right: 3px solid gray;
+        // border-bottom: 1px solid gray;
+        background-color: lightgray;
+      }
+
+      .schedule_address {
+        width: calc(100% - (100% / 6));
+        height: 40px;
+        padding: 0 5px;
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+
+  .cost {
+    width: 100%;
+    border-top: 3px solid darkgray;
+    border-bottom: 3px solid darkgray;
+
+    .cost_container {
+      width: 100%;
+      height: 40px;
+      display: flex;
+      border-bottom: 1px solid gray;
+
+      &:nth-child(3) {
+        background-color: white;
+
+        .cost_content {
+          input {
+            background-color: white;
+          }
+        }
+      }
+
+      .cost_type {
+        width: calc(100% / 6);
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        border-right: 3px solid gray;
+        border-bottom: 1px solid gray;
+        background-color: lightgray;
+      }
+
+      .cost_ect {
+        margin: 0 5px;
+        display: flex;
+        align-items: center;
+      }
+
+      .cost_content {
+        width: calc(100% - (100% / 6));
+        height: 100%;
+        // padding: 0 5px;
+        display: flex;
+        align-items: center;
+
+        input {
+          width: 100%; //비고 넣을 수도 있음.
+          height: 100%;
+          margin: 0px;
+          padding: 0 5px;
+          border: none;
+          color: black;
+          background-color: rgba(218, 41, 28, 0.1);
+        }
+      }
+    }
+  }
+
+  .ect {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+  }
+}

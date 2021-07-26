@@ -1,0 +1,125 @@
+$viewWidth: 500px;
+
+.wrap {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  height: calc(100% - 70px);
+  display: flex;
+  justify-content: space-between;
+}
+
+.board {
+  width: calc(100% - #{$viewWidth});
+  height: 100%;
+}
+
+.view {
+  width: $viewWidth;
+  min-width: $viewWidth;
+  height: 100%;
+  border-left: 1px dashed #aaaaaa;
+  display: flex;
+  justify-content: center;
+  background-color: #f5f5f5;
+  overflow: auto;
+  padding-top: 50px;
+}
+
+.view_container {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ctx_wrap {
+  width: calc(100% - #{$viewWidth});
+  min-width: 1000px;
+  font-size: 14px;
+
+  .ctx {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+    .sapn {
+      font-weight: bold;
+    }
+
+    & > input {
+      width: 200px;
+      height: 40px;
+      border: 1px solid #f5f5f5;
+      border-radius: 2px;
+      margin: 0 10px;
+      padding: 0 10px;
+
+      &:read-only {
+        background-color: #eeeeee;
+      }
+    }
+
+    .checkBox {
+      width: 21px;
+      height: 21px;
+      cursor: pointer;
+    }
+
+    & > select {
+      border: 1px solid #f5f5f5;
+      border-radius: 2px;
+      margin: 0 10px;
+      padding: 0 10px;
+      padding: 10px 20px;
+    }
+  }
+}
+
+.wrapper {
+  height: calc(100% - 135px);
+  overflow: auto;
+}
+
+.editor {
+  height: calc(100% - 50px) !important;
+  border: 1px solid #f1f1f1;
+  border-radius: 2px;
+}
+
+.toolbar {
+  width: 100%;
+}
+
+.div_none_wrap {
+  width: 100%;
+  height: calc(100% - 200px);
+}
+
+.div_wrap {
+  width: 100%;
+  height: calc(100% - 200px);
+  display: flex;
+}
+
+.nomal_wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.divide_wrapper {
+  width: 50%;
+  height: 100%;
+  overflow: auto;
+}
+
+.files_wrap {
+  padding: 10px;
+  font-size: 14px;
+  color: #666666;
+}

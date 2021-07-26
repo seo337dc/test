@@ -1,0 +1,75 @@
+@import "../../styles/styleconfig";
+
+.wrap {
+  width: 390px;
+  height: 0;
+  position: fixed;
+  bottom: 0;
+  right: 60px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column-reverse;
+  scroll-behavior: smooth;
+  z-index: 10001;
+}
+
+.card {
+  width: 300px;
+  height: 175px;
+  min-height: 175px;
+  background-color: #ffffff;
+  box-shadow: 5px 7px 10px #30303033;
+  border: 2px solid #303030;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  position: relative;
+  font-size: 18px;
+  color: #303030;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0 40px;
+  user-select: none;
+  font-weight: $medium;
+  transition: all 0.2s ease-in-out;
+
+  & > img {
+    margin-bottom: 20px;
+  }
+
+  & > i {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    cursor: pointer;
+  }
+}
+
+.notice {
+  width: 390px;
+  padding: 25px;
+  box-shadow: 5px 7px 10px #0000001a;
+  border-radius: 8px;
+  font-size: 18px;
+  position: relative;
+  margin-bottom: 15px;
+  background-color: #fff;
+  color: #222222;
+  word-break: keep-all;
+
+  & > i {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    cursor: pointer;
+  }
+
+  & > span {
+    font-weight: 500;
+    color: #da291c;
+  }
+
+  & > b {
+    font-weight: 500;
+  }
+}

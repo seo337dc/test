@@ -1,0 +1,30 @@
+@import "../../../styles/styleconfig";
+
+.wrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0 $memoSidePadding;
+  margin-bottom: 10px;
+  user-select: none;
+
+  & > i {
+    cursor: pointer;
+    font-size: 24px;
+  }
+
+  .switch_btn {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    border: 1px solid $semiBlack;
+    background-color: #ffffff;
+    box-shadow: 0px 3px 9px #00000017;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+}

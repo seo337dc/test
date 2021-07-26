@@ -1,0 +1,10 @@
+.wrap {
+  font-weight: 500;
+  cursor: pointer;
+  z-index: 100000;
+
+  & > i {
+    font-size: 21px;
+    margin-right: 5px;
+  }
+}

@@ -1,0 +1,34 @@
+@import "../../../styles/styleconfig";
+
+.wrap {
+  width: 100%;
+  height: $mailNavHeight;
+  padding-right: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid $white;
+  background-color: $mainContainerColor;
+
+  & > i {
+    font-size: 24px;
+    cursor: pointer;
+  }
+}
+.tab_wrap {
+  width: calc(100% - 50px);
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.plus_wrap {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  & > i {
+    cursor: pointer;
+    font-size: 14px;
+  }
+}

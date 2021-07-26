@@ -1,0 +1,106 @@
+@import "../../styles/styleconfig";
+
+.warp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.circle {
+  overflow: hidden;
+  position: relative;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: $bold;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.left_wrap {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+}
+
+.right_wrap {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+}
+
+.loader {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 9999px;
+  transform-origin: 0 50%;
+  background: linear-gradient(to right, #b5a496, #6b5d52);
+}
+
+.loader2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 9999px;
+  transform-origin: 100% 50%;
+  background: #b5a496;
+}
+
+.inner_circle {
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+  & > i {
+    color: #b5a496;
+  }
+}
+
+.num_wrap {
+  display: flex;
+  align-items: flex-end;
+}
+
+.now {
+  font-size: 48px;
+  color: $gold;
+  font-weight: $bold;
+}
+
+.line {
+  color: #acacac;
+  font-size: 18px;
+  margin: 0 5px;
+}
+
+.total {
+  color: #acacac;
+  font-size: 18px;
+}
+
+.done {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $gold;
+}
+
+.time {
+  text-align: center;
+  font-size: 14px;
+  color: #555555;
+  margin-top: 10px;
+}

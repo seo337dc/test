@@ -1,0 +1,11 @@
+@import "../../../../styles/styleconfig.scss";
+
+.division {
+  width: 23px;
+  margin-right: 25px;
+  cursor: pointer;
+
+  @include smallScreen {
+    display: none;
+  }
+}

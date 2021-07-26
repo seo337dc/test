@@ -1,0 +1,27 @@
+@import "../../../../../styles/styleconfig";
+
+.wrap {
+  display: flex;
+}
+
+.tab {
+  width: 100px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-width: 1px 1px 0 1px;
+  border-color: $semiBlack;
+  border-style: solid;
+  margin-right: 8px;
+  cursor: pointer;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.tab_selected {
+  background-color: $semiBlack;
+  color: $white;
+}

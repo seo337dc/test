@@ -1,0 +1,11 @@
+export const SET_IS_MESSENGER_OPEN = "SET_IS_MESSENGER_OPEN";
+
+export const SET_IS_MEMO_OPEN = "SET_IS_MEMO_OPEN";
+
+export const SET_IS_CALC_OPEN = "SET_IS_CALC_OPEN";
+
+export const SET_IS_TODO_OPEN = "SET_IS_TODO_OPEN";
+
+export const SET_IS_PT_EDITOR_OPEN = "SET_IS_PT_EDITOR_OPEN";
+
+export const SET_FOCUS = "SET_FOCUS";

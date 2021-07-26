@@ -1,0 +1,45 @@
+@import "../../../styles/styleconfig";
+
+.item {
+  width: 210px;
+  height: 50px;
+  border-bottom: 1px solid $black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 12px;
+  font-size: $s;
+  font-weight: $bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+
+  &:hover {
+    background-color: $mainContainerColor;
+  }
+}
+
+.item_disable {
+  font-weight: $regular;
+}
+
+.from {
+  color: #877669;
+}
+
+.to {
+  color: #616161;
+}
+
+.temp {
+  color: #aaaaaa;
+}
+
+.write {
+  padding: 0 15px;
+  color: $lotteRed;
+  justify-content: center;
+}

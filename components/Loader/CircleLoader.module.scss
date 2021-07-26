@@ -1,0 +1,26 @@
+@import "../../styles/styleconfig";
+
+.wrap {
+  margin: 60px auto;
+  font-size: 10px;
+  position: relative;
+  border-radius: 50%;
+  width: 7em;
+  height: 7em;
+  text-indent: -9999em;
+  border-top: 0.7em solid rgba(218, 41, 28, 0.1);
+  border-right: 0.7em solid rgba(218, 41, 28, 0.1);
+  border-bottom: 0.7em solid rgba(218, 41, 28, 0.1);
+  border-left: 0.7em solid $lotteRed;
+  transform: translateZ(0);
+  animation: load8 0.9s infinite linear;
+
+  @keyframes load8 {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+}

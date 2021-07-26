@@ -1,0 +1,5 @@
+export const SET_CHECK = "SET_CHECK";
+
+export const SET_TEST_STATE = "SET_TEST_STATE";
+
+export const SET_IS_WAITING_TO_LEAVE = "SET_IS_WAITING_TO_LEAVE";

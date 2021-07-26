@@ -1,0 +1,38 @@
+@import "../../../styles/styleconfig";
+
+.wrap {
+  width: 405px;
+  height: 267px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ctx {
+  margin-bottom: 40px;
+  font-size: 18px;
+  font-weight: $medium;
+  text-align: center;
+  line-height: 1.8;
+}
+
+.input {
+  margin-bottom: 30px;
+  width: 280px;
+  height: 48px;
+  border: 1px solid #303030;
+  text-align: center;
+  padding: 0 10px;
+  font-size: 20px;
+  color: #303030;
+  font-weight: $medium;
+}
+
+.btn {
+  width: 115px;
+  height: 40px;
+  background-color: #555555;
+  border-radius: 2px;
+  color: #ffffff;
+}

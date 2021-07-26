@@ -1,0 +1,35 @@
+@import "../../../styles/styleconfig";
+
+.wrap {
+  padding: 20px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  user-select: none;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #fbfbfb;
+    box-shadow: 0px 5px 8px #2222220d;
+  }
+}
+
+.title {
+  width: calc(100% - 50px);
+  font-size: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: $bold;
+}
+
+.trash {
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    filter: drop-shadow(2px 3px 2px #666666);
+  }
+}

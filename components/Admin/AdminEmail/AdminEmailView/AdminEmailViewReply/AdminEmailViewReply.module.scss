@@ -1,0 +1,171 @@
+.wrap {
+  .replyInfo {
+    width: 100%;
+    margin: 5px;
+    border-bottom: 1px solid #f1f1f1;
+
+    .replyCC,
+    .replyAttach {
+      height: 30px;
+      width: 100%;
+      margin: 5px 0;
+      display: flex;
+      align-items: center;
+
+      .info {
+        height: 100%;
+        width: 80%;
+        margin-left: 5px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        border: 1px solid #f1f1f1;
+      }
+    }
+  }
+
+  input {
+    width: 100px;
+    margin: 5px;
+    border: 1px solid black;
+  }
+
+  select {
+    margin: 2px 0 2px 5px;
+    border: 1px solid black;
+  }
+
+  .question {
+    .flex {
+      display: flex;
+
+      .qheader {
+        font-weight: bold;
+        margin: 0 5px;
+      }
+
+      .qtext {
+        font-weight: bold;
+        word-break: keep-all;
+      }
+    }
+  }
+
+  .radio {
+    p {
+      margin: 5px 0;
+      font-weight: bold;
+    }
+
+    .radio_li,
+    .checkbox_li {
+      width: 100%;
+      margin-left: 30px;
+      display: flex;
+
+      input[type="radio"] {
+        appearance: none;
+        min-width: 14px;
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        outline: none;
+        border: 1px solid gray;
+      }
+
+      input[type="radio"]:before {
+        content: "";
+        display: block;
+        width: 60%;
+        height: 60%;
+        margin: 20% auto;
+        border-radius: 50%;
+      }
+
+      input[type="radio"]:checked:before {
+        background: red;
+      }
+
+      input[type="radio"]:checked {
+        border-color: red;
+      }
+
+      input[type="checkbox"] {
+        appearance: none;
+        min-width: 14px;
+        width: 14px;
+        height: 14px;
+        border-radius: 3px;
+        outline: none;
+        border: 1px solid gray;
+      }
+
+      input[type="checkbox"]:before {
+        content: "";
+        display: block;
+        width: 60%;
+        height: 60%;
+        margin: 20% auto;
+        border-radius: 2px;
+      }
+
+      input[type="checkbox"]:checked:before {
+        background: red;
+      }
+
+      input[type="checkbox"]:checked {
+        border-color: red;
+      }
+
+      label {
+        word-break: keep-all;
+      }
+    }
+  }
+
+  .seqCheck {
+    .ctn {
+      margin: 0px 0px 5px 35px;
+      display: flex;
+
+      .checkbox_off,
+      .checkbox_on {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4px;
+        font-size: 13px;
+        width: 16px;
+        min-width: 16px;
+        height: 16px;
+        text-align: center;
+        border: 1px solid red;
+        border-radius: 2px;
+      }
+
+      .checkbox_on {
+        color: white;
+        background-color: red;
+      }
+
+      label {
+        font-size: 16px;
+        margin-left: 5px;
+      }
+    }
+  }
+
+  .table {
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  .checkBtn {
+    margin-top: 5px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+  }
+}

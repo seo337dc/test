@@ -1,0 +1,44 @@
+@import "../../styles/styleconfig";
+
+.wrap {
+  margin-bottom: 10px;
+  user-select: none;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  color: $ash;
+  font-weight: $medium;
+  cursor: pointer;
+
+  & > i {
+    font-size: $s;
+    margin-right: 10px;
+    transition: all 0.3s ease;
+  }
+}
+
+.header_down {
+  color: $gold;
+}
+
+.down {
+  transform: rotate(180deg);
+  color: $gold;
+}
+
+.container {
+  overflow: hidden;
+  padding-left: 24px;
+  margin-top: 8px;
+  transition: all 0.2s ease;
+}
+
+.open {
+  max-height: 10000px;
+}
+
+.close {
+  max-height: 0px;
+}

@@ -1,0 +1,43 @@
+@import "../../styles/styleconfig";
+
+.wrap {
+  position: fixed;
+  width: 480px;
+  height: calc(100% - 140px);
+  top: 100px;
+  box-shadow: 5px 8px 20px #30303026;
+  background-color: #f5f5f5;
+  overflow: hidden;
+  border-radius: 20px;
+  color: $semiBlack;
+  z-index: 9999;
+}
+
+.nav {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px 0 25px;
+  background-color: $lotteRed;
+  font-size: 20px;
+  font-weight: $medium;
+  color: #ffffff;
+  user-select: none;
+
+  .title {
+    display: flex;
+    align-items: center;
+  }
+
+  & > i {
+    font-size: 24px;
+    cursor: pointer;
+  }
+}
+
+.container {
+  width: 100%;
+  height: calc(100% - 70px);
+  overflow: auto;
+}

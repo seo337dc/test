@@ -1,0 +1,65 @@
+{
+  "result": "OK",
+  "sData": [
+    {
+      "id": "D_0",
+      "calendarId": "1",
+      "title": "프로젝트 제안서 PT준비",
+      "category": "allday",
+      "start": "2020-10-12",
+      "end": "2020-10-16",
+      "isAllDay": true,
+      "isReadOnly": true
+    },
+    {
+      "id": "D_1",
+      "calendarId": "2",
+      "title": "프로젝트 제안서 PT준비",
+      "category": "allday",
+      "start": "2020-10-24",
+      "end": "2020-10-26",
+      "isAllDay": true,
+      "isReadOnly": true
+    },
+    {
+      "id": "D_2",
+      "calendarId": "2",
+      "title": "5층 회의실 A",
+      "category": "time",
+      "start": "2020-10-24T10:00",
+      "end": "2020-10-24T11:00",
+      "isAllDay": false,
+      "isReadOnly": true
+    },
+    {
+      "id": "D_3",
+      "calendarId": "4",
+      "title": "고객사A 미팅",
+      "category": "time",
+      "start": "2020-10-27T10:00",
+      "end": "2020-10-27T11:00",
+      "isAllDay": false,
+      "isReadOnly": true
+    },
+    {
+      "id": "D_4",
+      "calendarId": "3",
+      "title": "박재원 팀장 - 고객사B 출장",
+      "category": "time",
+      "start": "2020-10-28T09:00",
+      "end": "2020-10-29T14:00",
+      "isAllDay": false,
+      "isReadOnly": true
+    },
+    {
+      "id": "D_5",
+      "calendarId": "2",
+      "title": "5층 회의실 B",
+      "category": "time",
+      "start": "2020-10-27T14:00",
+      "end": "2020-10-27T16:00",
+      "isAllDay": false,
+      "isReadOnly": true
+    }
+  ]
+}

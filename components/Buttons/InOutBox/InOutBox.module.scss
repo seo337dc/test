@@ -1,0 +1,25 @@
+@import "../../../styles/styleconfig";
+
+.wrap {
+  position: absolute;
+  padding: 5px;
+  background-color: $white;
+}
+
+.container {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $semiBlack;
+  font-size: $s;
+  border: 1px solid $semiBlack;
+  transition: all 0.2s ease;
+  cursor: pointer;
+
+  &:hover {
+    color: $lotteRed;
+    border-color: $lotteRed;
+  }
+}

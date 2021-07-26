@@ -1,0 +1,44 @@
+.container {
+  height: 25px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  border-top: 1px solid #f1f1f1;
+  border-bottom: 1px solid #dddddd;
+
+  .btn_on {
+    width: auto;
+    margin: 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px gray;
+
+    &:active {
+      box-shadow: 1px 1px 1px 1px gray inset;
+    }
+
+    i {
+      font-weight: bold;
+    }
+
+    span {
+      font-size: 10px;
+      font-weight: bold;
+    }
+  }
+
+  .code {
+    width: auto;
+    height: 17px;
+    margin: 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+    color: white;
+    background-color: black;
+  }
+}

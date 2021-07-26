@@ -1,0 +1,41 @@
+@import "../../../styles/styleconfig";
+
+.wrap {
+  padding: 15px 20px 25px;
+  background-color: #ffffff;
+  border-radius: 3px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: $medium;
+  align-items: center;
+  font-size: $modalHeaderSize;
+  line-height: 1;
+  margin-bottom: 20px;
+
+  & > i {
+    cursor: pointer;
+    font-size: 18px;
+    padding: 5px 0;
+    color: #222222;
+  }
+}
+
+.title {
+  & > img {
+    margin-right: 10px;
+  }
+}
+
+.bigTitle {
+  font-size: 28px;
+  font-weight: 500;
+  padding: 20px 0 0 0;
+}
+
+.blur {
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: $bgBlur;
+}

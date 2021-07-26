@@ -1,0 +1,40 @@
+.btn_wrap {
+  display: flex;
+  justify-content: center;
+  user-select: none;
+  :first-child {
+    margin-right: 10px;
+  }
+}
+
+.btn {
+  width: 115px;
+  height: 40px;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #555555;
+  background-color: #555555;
+  color: #ffffff;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.no {
+  background: #ffffff;
+  border: 1px solid #acacac;
+  color: #acacac;
+}
+
+.no_re {
+  border: 1px solid #555555;
+  background-color: #555555;
+  color: #ffffff;
+}
+
+.yes_re {
+  background: #ffffff;
+  border: 1px solid #acacac;
+  color: #acacac;
+}

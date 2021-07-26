@@ -1,0 +1,8 @@
+.wrap {
+  padding: 35px 0px;
+
+  & > textarea {
+    width: 100%;
+    resize: none;
+  }
+}

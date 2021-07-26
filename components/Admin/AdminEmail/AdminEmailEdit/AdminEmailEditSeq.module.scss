@@ -1,0 +1,103 @@
+.wrap {
+  width: 100%;
+  font-size: 14px;
+
+  i {
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 5px;
+  }
+}
+
+.head {
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px auto;
+
+  .ctn {
+    display: flex;
+
+    span {
+      width: auto;
+    }
+
+    .count {
+      width: 50px;
+      margin-left: 10px;
+      border: 1px solid black;
+    }
+  }
+
+  .btn {
+    width: auto;
+    margin: 5px 0px;
+
+    input {
+      margin-left: 5px;
+      border: 1px solid black;
+    }
+
+    span {
+      margin-left: 5px;
+      font-size: 18px;
+      border: 1px solid black;
+      cursor: pointer;
+
+      &:hover {
+        color: white;
+        background-color: black;
+        border: 1px solid white;
+      }
+    }
+  }
+}
+
+.make_question {
+  width: 90%;
+  margin: 5px auto;
+}
+
+.body {
+  width: 95%;
+  height: 170px;
+  margin: 5px auto;
+  overflow-y: auto;
+  border: 1px solid black;
+}
+
+.ctn {
+  padding: 5px 5px;
+  display: flex;
+  align-items: center;
+
+  .checkbox_off {
+    width: 20px;
+    min-width: 20px;
+    height: 20px;
+    text-align: center;
+    border: 1px solid black;
+  }
+
+  .checkbox_on {
+    width: 20px;
+    min-width: 20px;
+    height: 20px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+  }
+
+  .check_head {
+    width: 60px;
+    margin-left: 10px;
+    border: 1px solid black;
+  }
+
+  .check_content {
+    width: 85%;
+    margin-left: 10px;
+    border: 1px solid black;
+  }
+}

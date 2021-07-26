@@ -1,0 +1,141 @@
+@import "../styles/styleconfig.scss";
+
+.wrap {
+  width: 100%;
+  height: 100%;
+  min-width: 800px;
+  user-select: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  & > video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+}
+
+.login_wrap {
+  padding-bottom: 60px;
+  position: relative;
+
+  .comment {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 45px;
+    background-color: #f6cecb;
+    border: 1px solid #da291c;
+    display: flex;
+    align-items: center;
+    color: #da291c;
+    font-weight: $medium;
+    word-break: keep-all;
+    padding: 0 10px;
+    font-size: 14px;
+
+    & > i {
+      font-size: 21px;
+      margin-right: 10px;
+    }
+  }
+
+  .hotspot {
+    height: 20px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.8;
+    font-weight: $medium;
+    word-break: keep-all;
+    color: #fff;
+  }
+
+  form {
+    font-family: $notoSans;
+    display: flex;
+  }
+
+  input {
+    width: 262px;
+    height: 57px;
+    background-color: rgba(255, 255, 255, 0.48);
+    color: #ffffff;
+    font-size: $l;
+    padding: 15px 20px;
+
+    &::placeholder {
+      color: #eeeeee;
+    }
+  }
+
+  button {
+    width: 145px;
+    height: 57px;
+    font-size: $l;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: $lotteRed;
+  }
+}
+
+.title {
+  font-size: 50px;
+  margin-bottom: 35px;
+  font-family: LOTTEFONT;
+  text-align: center;
+  color: #ffffff;
+}
+
+.input_wrap {
+  position: relative;
+  font-size: 13px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+
+  .timer {
+    position: absolute;
+    right: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  i {
+    margin-right: 5px;
+  }
+}
+
+.peragree {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 2px;
+  cursor: pointer;
+  padding: 8px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.pt {
+  min-width: 800px;
+  max-height: 600px;
+  font-size: 14px;
+  word-break: keep-all;
+  overflow: auto;
+  text-underline-position: under;
+  line-height: 1.8;
+  & > u {
+    font-weight: 800;
+  }
+}

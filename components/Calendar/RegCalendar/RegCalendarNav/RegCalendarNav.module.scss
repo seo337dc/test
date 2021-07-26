@@ -1,0 +1,163 @@
+@import "../../../../styles/styleconfig";
+
+.wrap {
+  height: 100px;
+  padding: 0 15px;
+  background-color: $white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  @include underScreen {
+    padding: 0 10px;
+  }
+}
+
+.col_wrap {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+
+  & > img {
+    margin: 8px 0 0 8px;
+    cursor: pointer;
+
+    @include underScreen {
+      margin: 4px 0 0 4px;
+    }
+  }
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+  font-weight: $bold;
+  user-select: none;
+
+  & > i {
+    cursor: pointer;
+
+    &:nth-child(1) {
+      margin-right: 15px;
+
+      @include underScreen {
+        margin-right: 8px;
+      }
+    }
+
+    &:nth-child(2) {
+      margin-left: 15px;
+
+      @include underScreen {
+        margin-left: 8px;
+      }
+    }
+  }
+
+  @include underScreen {
+    font-size: 24px;
+  }
+}
+
+.today {
+  color: #acacac;
+  text-decoration: underline;
+  text-underline-position: below;
+  user-select: none;
+  cursor: pointer;
+
+  @include underScreen {
+    font-size: 14px;
+  }
+}
+
+.category_wrap {
+  display: flex;
+  align-items: center;
+
+  .btn {
+    width: 70px;
+    height: 36px;
+    border: 1px solid #acacac;
+    color: #acacac;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+    user-select: none;
+    cursor: pointer;
+
+    @include underScreen {
+      width: 60px;
+      height: 30px;
+      font-size: 12px;
+    }
+  }
+
+  .selected {
+    border: 1px solid #222;
+    background-color: #222222;
+    color: #fff;
+  }
+}
+
+.ctx {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+
+  .info {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: #303030;
+    font-weight: 500;
+    margin-bottom: 5;
+
+    @include underScreen {
+      font-size: 9px;
+    }
+  }
+
+  .box {
+    width: 10px;
+    height: 10px;
+    margin: 0 8px;
+  }
+
+  .w {
+    background-color: #fff;
+    border: 1px solid #acacac;
+  }
+
+  .g {
+    background-color: #acacac;
+    border: 1px solid #707070;
+  }
+
+  .r {
+    background-color: #da291c4d;
+    border: 1px solid #da291c;
+  }
+
+  .text {
+    font-size: 12px;
+    color: #acacac;
+    position: relative;
+    padding-left: 10px;
+
+    @include underScreen {
+      font-size: 9px;
+    }
+  }
+}

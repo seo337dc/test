@@ -1,0 +1,266 @@
+.idcard_check_popup {
+  display: none;
+}
+.uprism_popup_footer_step1,
+.uprism_popup_footer_step2 {
+  display: none !important;
+}
+.uprism_popup_footer_step_active {
+  display: flex !important;
+}
+.idcard_check_wrap {
+  width: 100%;
+  height: 100%;
+}
+
+.idcard_check_wrap .top {
+  width: 100%;
+  height: 120px;
+  background-color: #222;
+  color: #fff;
+  padding: 40px;
+  box-sizing: border-box;
+  font-size: 36px;
+}
+
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡ 신분증 촬영 ㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+
+.idcard_check_btn_left_wrap {
+  display: flex;
+  float: left;
+}
+
+.idcard_check_container {
+  width: 960px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.idcard_check_btn_left_wrap div {
+  width: 177px;
+  height: 65px;
+  color: #fff;
+  line-height: 65px;
+  text-align: center;
+}
+
+.idcard_check_popup {
+  width: 780px;
+  height: 542px;
+  background-color: #fff;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  margin: 0 auto;
+  padding-top: 80px;
+  box-shadow: 2px 4px 13px rgba(0, 0, 0, 0.2);
+}
+
+.idcard_check_popup i {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+}
+
+.idcard_check_popup .camBox {
+  width: 630px;
+  height: 350px;
+  border: 1px solid #6b6b6b;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 350px;
+}
+
+.idcard_check_popup .btn_wrap {
+  display: flex;
+  width: 630px;
+  margin: 20px auto;
+  justify-content: center;
+}
+
+.idcard_check_popup .btn_wrap div {
+  width: 140px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.idcard_check_popup .regis_btn {
+  background-color: #da291c;
+  color: #fff;
+  margin-right: 23px;
+}
+
+.idcard_check_popup .regis_btn:hover {
+  background-color: #da291c;
+}
+
+.idcard_check_popup .reshoot_btn {
+  background-color: #222;
+  color: #fff;
+  margin-right: 23px;
+}
+
+.idcard_check_popup .reshoot_btn:hover {
+  background-color: #303030;
+}
+
+.idcard_check_popup .masking_btn {
+  border: 2px solid #6b6b6b;
+  color: #6b6b6b;
+  margin-right: 23px;
+}
+
+.idcard_check_popup .masking_btn:hover {
+  border: 2px solid #da291c;
+  color: #da291c;
+}
+
+.idcard_check_popup .masking_del_btn {
+  border: 2px solid #6b6b6b;
+  color: #6b6b6b;
+}
+
+.idcard_check_popup .masking_del_btn:hover {
+  border: 2px solid #da291c;
+  color: #da291c;
+}
+
+.idcard_check_popup .shoot_btn {
+  background-color: #222;
+  color: #fff;
+}
+
+.idcard_check_popup .shoot_btn:hover {
+  background-color: #303030;
+}
+
+.idcard_check_btn_left_wrap .btn_idcard_cam {
+  background-color: #da291c;
+  color: #fff;
+  margin-right: 20px;
+}
+
+.idcard_check_btn_left_wrap .btn_idcard_cam .xi-camera {
+  font-size: 25px;
+  color: #fff;
+}
+
+.idcard_check_btn_left_wrap .btn_idcard_tool {
+  background-color: #6b6b6b;
+  color: #fff;
+}
+
+.idcard_check_btn_right_wrap {
+  float: right;
+  display: flex;
+}
+
+.idcard_check_btn_right_wrap div {
+  width: 177px;
+  height: 65px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 65px;
+}
+
+.idcard_check_btn_right_wrap .btn_attendance {
+  border: 2px solid #6b6b6b;
+  line-height: 65px;
+  color: #6b6b6b;
+  margin-right: 20px;
+  box-sizing: border-box;
+}
+
+.idcard_check_btn_right_wrap .btn_pre_test {
+  background-color: #ccc;
+  color: #fff;
+}
+
+.clearfix {
+  content: "";
+  clear: both;
+}
+
+.idcard_check_notice {
+  margin: 30px 0;
+}
+
+.idcard_check_notice div img {
+  width: 17px;
+  height: 17px;
+}
+
+.idcard_check_notice div:nth-child(1) {
+  margin-bottom: 10px;
+}
+
+.idcard_check_notice span {
+  font-size: 16px;
+  color: #222;
+}
+
+.idcard_check_videobox > div {
+  display: flex;
+}
+
+.idcard_check_videobox > div > div {
+  width: 469px;
+  height: 264px;
+  background-color: #222;
+  color: #fff;
+  line-height: 264px;
+  text-align: center;
+}
+
+.idcard_check_videobox > div > div:nth-child(1) {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.idcard_check_videobox > div .ex {
+  position: relative;
+  padding: 0 20px;
+  box-sizing: border-box;
+  text-align: left;
+  line-height: inherit;
+  background-color: transparent;
+  color: #da291c;
+  border: 1px solid #6b6b6b;
+}
+
+.idcard_check_videobox > div p {
+  font-size: 18px;
+}
+
+.idcard_check_videobox > div .ex .info {
+  width: 20px;
+  vertical-align: middle;
+}
+
+.idcard_check_videobox > div .ex .ex_img_wrap span {
+  color: #222;
+}
+
+.idcard_check_videobox > div .masking-ex {
+  height: 163px;
+}
+
+.idcard_check_videobox .sample {
+  position: absolute;
+  top: 113px;
+  right: 65px;
+  font-size: 24px;
+  color: #309099;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+.xi-close-thin {
+  cursor: pointer;
+}

@@ -1,0 +1,29 @@
+@import "../../styles/styleconfig";
+
+.wrap {
+  position: fixed;
+  width: 480px;
+  height: calc(100% - 140px);
+  top: 100px;
+  box-shadow: 5px 8px 20px #30303026;
+  background-color: #f5f5f5;
+  color: $semiBlack;
+  border-radius: 20px;
+  overflow: hidden;
+  z-index: 9999;
+}
+
+.del_wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: #222222;
+  font-weight: $medium;
+  padding: 0 60px 30px;
+
+  & > img {
+    margin-bottom: 15px;
+  }
+}

@@ -1,0 +1,58 @@
+.wrap {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+
+  .input {
+    width: 100%;
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+    // justify-content: center;
+
+    p {
+      width: 50px;
+    }
+
+    input {
+      height: 25px;
+      width: 75%;
+      margin-left: 10px;
+      border: 1px solid black;
+    }
+
+    .button_on {
+      width: 50px;
+      height: 20px;
+      margin: 5px 5px;
+      text-align: center;
+      cursor: pointer;
+      color: #ffffff;
+      background-color: black;
+      border: 1px solid black;
+    }
+
+    .button_off {
+      width: 50px;
+      height: 20px;
+      margin: 5px 5px;
+      text-align: center;
+      cursor: pointer;
+      border: 1px solid black;
+    }
+  }
+
+  .btn {
+    display: flex;
+
+    .submit {
+      width: 50px;
+      height: 20px;
+      margin: auto 5px;
+      text-align: center;
+      cursor: pointer;
+      border: 1px solid black;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+@import "../../../../styles/styleconfig";
+
+.wrap {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  border-bottom: 1px solid #acacac;
+  cursor: pointer;
+  user-select: none;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+}
+
+.book_wrap {
+  width: 125px;
+  display: flex;
+  align-items: center;
+  // margin-right: 45px;
+  font-size: 14px;
+  color: #877669;
+
+  .kind {
+    margin-left: 25px;
+  }
+}
+
+.title {
+  width: calc(100% - 170px);
+  color: #303030;
+  font-size: 18px; //20px;
+  font-weight: $bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

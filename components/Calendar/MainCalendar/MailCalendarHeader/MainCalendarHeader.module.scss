@@ -1,0 +1,64 @@
+@import "../../../../styles/styleconfig";
+
+.wrap {
+  height: 100px;
+  padding: 28px 35px 0 35px;
+  background-color: $white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+  font-weight: $bold;
+  user-select: none;
+
+  & > i {
+    cursor: pointer;
+
+    &:nth-child(1) {
+      margin-right: 30px;
+    }
+
+    &:nth-child(2) {
+      margin-left: 30px;
+    }
+  }
+}
+
+.today {
+  color: #acacac;
+  text-decoration: underline;
+  text-underline-position: below;
+  user-select: none;
+  cursor: pointer;
+}
+
+.regBtn {
+  width: 120px;
+  height: 55px;
+  background-color: #555555;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-weight: $medium;
+  user-select: none;
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #222222;
+  }
+}

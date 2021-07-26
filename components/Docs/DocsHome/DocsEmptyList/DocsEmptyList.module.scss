@@ -1,0 +1,32 @@
+@import "../../../../styles/styleconfig";
+
+.wrap {
+  width: 100%;
+  min-width: 700px;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  img {
+    margin-bottom: 30px;
+  }
+}
+
+.text {
+  font-size: 24px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-weight: $medium;
+  color: #acacac;
+  padding: 0 15px;
+  word-break: keep-all;
+
+  & > svg {
+    margin: 0 10px;
+  }
+}

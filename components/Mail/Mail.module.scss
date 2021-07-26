@@ -1,0 +1,41 @@
+@import "../../styles/styleconfig";
+
+.wrap {
+  width: 100%;
+  height: 100%;
+  background-color: $white;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: $mailContainerHeight;
+}
+
+.send_container {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  height: $mailContainerHeight;
+}
+
+.empty {
+  width: calc(100% - 180px);
+  min-width: 315px;
+  height: 100%;
+  padding: 30px;
+  font-size: 20px;
+  font-weight: $medium;
+  text-align: center;
+  color: rgba(34, 34, 34, 0.35);
+  word-break: keep-all;
+
+  @include displayCenter;
+}
+
+
+.loader_wrap {
+  width: 100%;
+  height: 90%;
+  @include flexDirectionCenter;
+}

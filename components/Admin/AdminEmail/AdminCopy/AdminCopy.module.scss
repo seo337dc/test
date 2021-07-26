@@ -1,0 +1,57 @@
+.wrap {
+  width: 500px;
+  height: 150px;
+  position: fixed;
+  padding: 15px 0px;
+  left: 40%;
+  top: 10%;
+  border: 1px solid black;
+  background-color: lightgreen;
+  z-index: 99;
+
+  .now {
+    margin-left: 42px;
+  }
+
+  .intern {
+    width: auto;
+    height: auto;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    input {
+      margin-left: 5px;
+      border: 1px solid black;
+    }
+
+    .submit {
+      margin-left: 10px;
+      border: 1px solid black;
+      background-color: white;
+      cursor: pointer;
+    }
+  }
+
+  .issue {
+    width: auto;
+    height: auto;
+    margin-left: 42px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+
+    input {
+      margin-left: 5px;
+      border: 1px solid black;
+    }
+
+    .submit {
+      margin-left: 10px;
+      border: 1px solid black;
+      background-color: white;
+      cursor: pointer;
+    }
+  }
+}

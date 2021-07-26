@@ -1,0 +1,69 @@
+@import "../../../../styles/styleconfig";
+
+.wrap {
+  padding-bottom: 20px;
+  border-bottom: 1px solid $black;
+  // margin-bottom: 30px;
+}
+
+.subject {
+  font-size: $l;
+  font-weight: $bold;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  font-size: $s;
+  font-weight: $medium;
+  margin-bottom: 5px;
+
+  .right {
+    width: 80px;
+    color: $gray;
+    display: flex;
+    align-items: center;
+  }
+
+  .files {
+    width: calc(100% - #{$mailWriteTitleIndexWidth + 25});
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .ctx {
+    color: $black;
+  }
+
+  .notice {
+    color: #da291c;
+    font: normal normal normal 12px/15px Noto Sans KR;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+    align-items: flex-start;
+  }
+}
+
+.files_wrap {
+  display: flex;
+}
+
+.notice {
+  display: flex;
+  font-size: $s;
+
+  .right {
+    width: 80px;
+    color: $gray;
+    display: flex;
+    align-items: center;
+  }
+
+  .ctx {
+    font-size: 12px;
+    color: #da291c;
+  }
+}

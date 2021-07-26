@@ -1,0 +1,50 @@
+@import "../../../../../styles/styleconfig";
+
+.wrap {
+  width: 200px;
+  height: 130px;
+  border: 1px solid $semiBlack;
+  position: relative;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  padding: 10px 20px;
+  user-select: none;
+}
+
+.item {
+  padding: 5px 5px; //확인 내용
+  background-color: $white;
+  display: flex; //확인 내용
+  justify-content: space-between; //확인 내용
+  z-index: 10003;
+  cursor: pointer;
+
+  //확인 내용
+  .check {
+    width: 20px;
+    height: 20px;
+    color: $white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    border: 1px solid $semiBlack;
+    font-size: $xs;
+    font-weight: $medium;
+  }
+
+  //확인 내용
+  .checked {
+    width: 20px;
+    height: 20px;
+    color: $white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    background-color: $semiBlack;
+  }
+}

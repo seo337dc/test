@@ -1,0 +1,46 @@
+@import "../../../styles/styleconfig";
+
+.wrap {
+  height: 100%;
+  padding: 10px;
+}
+
+.container {
+  width: 100%;
+  padding: 5px 20px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  cursor: pointer;
+
+  .type {
+    width: 80px;
+    font-size: $s;
+    color: $gold;
+    margin-right: 20px;
+  }
+
+  .text {
+    width: calc(100% - 140px); //calc(100% - 140px);
+  }
+}
+
+.check,
+.checked {
+  width: 20px;
+  height: 20px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #303030;
+  font-size: $xs;
+  font-weight: $medium;
+}
+
+.checked {
+  background-color: #303030;
+}
